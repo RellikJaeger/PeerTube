@@ -124,7 +124,7 @@ rm -f "./client/dist/embed-stats.json"
 
       # Release types package
       npm run generate-types-package "$version"
-      cd packages/types/dist
+      cd packages/types-generator/dist
       npm publish --access public
   fi
 )
